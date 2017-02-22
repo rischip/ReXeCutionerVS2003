@@ -1,22 +1,5 @@
-﻿Build started 2/21/2017 7:55:12 PM.
-     1>Project "C:\GitHub\Dev\ReXeCutionerVS2003\src\ReXeCutionerSvc\ReXeCutionerSvc.vcxproj" on node 2 (Rebuild target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ReXeCutionerSvc.cpp Service.cpp
-         ReXeCutionerSvc.cpp
-     1>c:\github\dev\rexecutionervs2003\src\rexecutionersvc\rexecutionersvc.cpp(179): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\github\dev\rexecutionervs2003\src\rexecutionersvc\rexecutionersvc.cpp(181): error C2065: 'i' : undeclared identifier
-     1>c:\github\dev\rexecutionervs2003\src\rexecutionersvc\rexecutionersvc.cpp(182): error C2065: 'i' : undeclared identifier
-     1>c:\github\dev\rexecutionervs2003\src\rexecutionersvc\rexecutionersvc.cpp(183): error C2065: 'i' : undeclared identifier
-     1>c:\github\dev\rexecutionervs2003\src\rexecutionersvc\rexecutionersvc.cpp(184): error C2065: 'i' : undeclared identifier
-     1>c:\github\dev\rexecutionervs2003\src\rexecutionersvc\rexecutionersvc.cpp(185): error C2065: 'i' : undeclared identifier
-     1>c:\github\dev\rexecutionervs2003\src\rexecutionersvc\rexecutionersvc.cpp(186): error C2065: 'i' : undeclared identifier
-     1>c:\github\dev\rexecutionervs2003\src\rexecutionersvc\rexecutionersvc.cpp(187): error C2065: 'i' : undeclared identifier
-     1>c:\github\dev\rexecutionervs2003\src\rexecutionersvc\rexecutionersvc.cpp(188): error C2065: 'i' : undeclared identifier
-     1>c:\github\dev\rexecutionervs2003\src\rexecutionersvc\rexecutionersvc.cpp(785): warning C4244: '=' : conversion from 'unsigned long' to 'WORD', possible loss of data
-         Service.cpp
-         Generating Code...
-     1>Done Building Project "C:\GitHub\Dev\ReXeCutionerVS2003\src\ReXeCutionerSvc\ReXeCutionerSvc.vcxproj" (Rebuild target(s)) -- FAILED.
+﻿Build started 2/21/2017 8:18:13 PM.
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:04.76
+Time Elapsed 00:00:00.06

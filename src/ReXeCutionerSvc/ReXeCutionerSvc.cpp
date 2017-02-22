@@ -176,15 +176,15 @@ void CommunicationPipeThreadProc( void* pParam )
 		//XOR the data structure to prevent username and password
 		//from going across the network in plain text
 		//figure out encryption routine for this later
-		for (int i = 0; i < strlen(msg.szCommand); i++)
+		for (unsigned int i = 0; i < strlen(msg.szCommand); i++)
 		msg.szCommand[i] = 1^msg.szCommand[i];
-		for (i = 0; i < strlen(msg.szDomain); i++)
+		for (unsigned int i = 0; i < strlen(msg.szDomain); i++)
 		msg.szDomain[i] = 1^msg.szDomain[i];
-		for (i = 0; i < strlen(msg.szMachine); i++)
+		for (unsigned int i = 0; i < strlen(msg.szMachine); i++)
 		msg.szMachine[i] = 1^msg.szMachine[i];
-		for (i = 0; i < strlen(msg.szPassword); i++)
+		for (unsigned int i = 0; i < strlen(msg.szPassword); i++)
 		msg.szPassword[i] = 1^msg.szPassword[i];
-		for (i = 0; i < strlen(msg.szUser); i++)
+		for (unsigned int i = 0; i < strlen(msg.szUser); i++)
 		msg.szUser[i] = 1^msg.szUser[i];
 
 		
